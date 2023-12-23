@@ -38,20 +38,18 @@ footer {
   bottom: 0;
   width: 100%;
 }
-/* 既存のスタイルは省略 */
 
 footer ul {
   list-style-type: none;
   padding: 0;
+  display: flex; /* 水平に並べる */
 }
 
 footer li {
-  display: block;
-  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 footer a {
-  display: block; /* リンクをブロックレベルで表示する */
   text-decoration: none;
   color: #fff;
 }
