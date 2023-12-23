@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #bbb;
 }
 
 header {
@@ -16,6 +16,7 @@ section {
   padding: 1em;
   max-width: 1000px;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 footer {
