@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  width: 1000px;
 }
 
 header {
@@ -15,6 +14,7 @@ header {
 
 section {
   padding: 1em;
+  width: 1000px;
 }
 
 footer {
