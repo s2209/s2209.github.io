@@ -38,6 +38,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
+/* 既存のスタイルは省略 */
 
 footer ul {
   list-style-type: none;
@@ -45,6 +46,12 @@ footer ul {
 }
 
 footer li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer a {
   display: block; /* リンクをブロックレベルで表示する */
-  margin-bottom: 10px; /* リンク間に余白を設定 */
+  text-decoration: none;
+  color: #fff;
 }
