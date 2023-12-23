@@ -52,10 +52,6 @@ footer li {
   margin-bottom: 10px;
 }
 
-footer li:nth-child(4n) {
-  margin-right: 0;
-}
-
 footer a {
   text-decoration: none;
 }
