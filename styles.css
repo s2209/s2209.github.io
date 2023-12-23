@@ -32,6 +32,8 @@ footer ul {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 footer li {
