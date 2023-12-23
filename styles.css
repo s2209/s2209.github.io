@@ -34,22 +34,23 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
-footer ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex; /* 水平に並べる */
+.link-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
-footer li {
-  margin-right: 10px;
+.link-table div {
+  text-align: left;
 }
 
-footer a {
+.link-table a {
   text-decoration: none;
   color: #fff;
+  display: block;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
 }
