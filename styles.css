@@ -15,9 +15,8 @@ header {
 section {
   padding: 1em;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 200px;
   background-color: #fff;
-  margin-bottom: 1000px
 }
 
 footer {
