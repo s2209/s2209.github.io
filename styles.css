@@ -38,3 +38,13 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  display: block; /* リンクをブロックレベルで表示する */
+  margin-bottom: 10px; /* リンク間に余白を設定 */
+}
