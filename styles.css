@@ -12,19 +12,6 @@ header {
   text-align: center;
 }
 
-nav {
-  background-color: #444;
-  color: #fff;
-  padding: 0.5em;
-  text-align: center;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 0.5em 1em;
-}
-
 section {
   padding: 1em;
 }
@@ -50,6 +37,7 @@ footer ul {
 footer li {
   margin-right: 10px;
   margin-bottom: 10px;
+  width: 120px;
 }
 
 footer a {
