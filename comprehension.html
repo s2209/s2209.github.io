@@ -18,6 +18,14 @@
     <h1>内包性公理図式</h1>
     $$\forall z \forall w_1,...,w_n \exists y \forall x (x \in y \leftrightarrow x \in z \land \phi) \quad \text{(\(\phi\)は\(x,z,w_1,...,w_n\)を自由変数とする式)}$$
     <p>
+      公理図式は公理の集まりで内包性公理図式を構成する公理には以下のようなものがあります．
+      $$\forall z \exists y \forall x (x \in y \leftrightarrow x \in z \land x = x)$$
+      $$\forall z \forall w_1 \exists y \forall x (x \in y \leftrightarrow x \in z \land x = w_1)$$
+      $$\forall z \forall w_1,w_2 \exists y \forall x (x \in y \leftrightarrow x \in z \land x \neq w_1 \land x \in w_2)$$
+      $$\forall z \exists y \forall x (x \in y \leftrightarrow x \in z \land x \neq x)$$
+      これらは一部で実際には無限個の公理からなります．
+    </p>
+    <p>
       この公理図式は集合から条件を満たす元だけを取り出して集めた集合を作れるというものです．
       ある集合の一部になっている集合をその集合の部分集合といいます．
       正確な定義はこれです．
@@ -25,6 +33,8 @@
       \(x\)が\(y\)の部分集合であるとき\(x \subset y\)や\(x \subseteq y\)のように表します．
       また，\(x\subset x\)です．
       \(x\)が\(y\)の部分集合であり\(y\)自身と異なるとき，\(x\)は\(y\)の真部分集合であるといい\(x \subsetneq y\)のように表します．
+    </p>
+    <p>
       また空集合(何も入ってない集合)は明らかに部分集合であり，一つの内包性公理\(\forall z \exists y \forall x (x \in y \leftrightarrow x \in z \land x \neq x)\)と集合の存在公理\(\exists x (x=x)\)から存在することを示せます．
       空集合は外延性公理から一意的であることが示せるので，\(\emptyset\)や\(\varnothing\)で表します．
     </p>
