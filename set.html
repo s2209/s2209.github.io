@@ -19,12 +19,15 @@
     <p>
       このフレーズは圏論の基礎(Categories for the Working Mathematician)にでてくるすべての概念はカン拡張である(All Concepts are Kan Extensions)をまねたものです．
       \(ZFC\)では自然数などの概念をすべて集合として定義します．
-      その例として以下のようなものがあります．
+      集合の演算をいくつか定義します．
       $$\bigcap A=\{x\in \bigcup A|\forall y\in A(x\in y)\}$$
       $$A\cap B=\bigcap\{A,B\}$$
-      $$A-B=\{x \in A|x \nnotin B\}$$
+      $$A-B=\{x \in A|x \notin B\}$$
       $$(a,b)=\{\{a\},\{a,b\}\}$$
       $$A\times B=\{(a,b)|a\in A \land b \in B\}$$
+      \(R\subset A\times B\)を\(A\)，\(B\)間の関係といい\(a R b \leftrightarrow (a,b)\in R\)のように表せます．
+      関係\(f\subset A \times B\)が\(\forall x\in A \exists! y\in B (xfy)\)を満たすと\(A\)から\(B\)への写像であるといい\(f(x)=y\leftrightarrow xfy\)のように表せます．
+      整数，有理数，実数は次のように定義されます．
       $$\mathbb{Z}=(\mathbb{N}\times\mathbb{N})/\{((a,b),(c,d))\in (\mathbb{N}\times\mathbb{N})\times(\mathbb{N}\times\mathbb{N})|a+d=c+d\}$$
       $$\mathbb{Q}=(\mathbb{Z}\times(\mathbb{Z}-\{0_{\mathbb{Z}}\}))/\{((a,b),(c,d))\in (\mathbb{Z}\times\mathbb{Z})\times(\mathbb{Z}\times\mathbb{Z})|a\cdot d=c\cdot d\}$$
       $$\mathbb{R}=\{x \in \mathcal{P}(\mathbb{Q})|x \neq \emptyset \land x\neq \mathbb{Q} \land \forall a \in x \forall b \in (\mathbb{Q}-x)(a< b)\}$$
