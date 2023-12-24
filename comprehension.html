@@ -16,6 +16,19 @@
 
   <section>
     <h1>内包性公理図式</h1>
+    $$\forall z \forall w_1,...,w_n \exists y \forall x (x \in y \leftrightarrow x \in z \land \phi)$$
+    <p>(\(\phi\)は\(x,y,A,w_1,...,w_n\)を自由変数とする式)</p>
+    <p>
+      この公理図式は集合から条件を満たす減だけを取り出して集めた集合を作れるというものです．
+      ある集合の一部になっている集合をその集合の部分集合といいます．
+      正確な定義はこれです．
+      $$x\subset y \leftrightarrow \forall z (z \in x \rightarrow z \in y)$$
+      \(x\)が\(y\)の部分集合であるとき\(x \subset y\)や\(x \suseteq y\)のように表します．
+      また，\(x\subset x\)です．
+      \(x\)が\(y\)の部分集合であり\(y\)自身と異なるとき，\(x\)は\(y\)の真部分集合であるといい\(x \subsetneq y\)のように表します．
+      また空集合(何も入ってない集合)は明らかに部分集合であり，一つの内包性公理\(\forall z \exists y \forall x (x \in y \leftrightarrow x \in z \land x \neq x)\)と集合の存在公理\(\exists x (x=x)\)から存在することを示せます．
+      空集合は外延性公理から一意的であることが示せるので，\(\emptyset\)や\(\varnothing\)で表わします．
+    </p>
     
   </section>
 
